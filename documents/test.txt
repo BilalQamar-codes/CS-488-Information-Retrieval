@@ -1,3 +1,0 @@
-this is a test file.
-this is the secind line.
-this is thrid line.

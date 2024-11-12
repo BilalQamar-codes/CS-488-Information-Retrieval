@@ -1,0 +1,2 @@
+Exploring the World of Robotics
+Robotics is a multidisciplinary field involving mechanical engineering, electrical engineering, and computer science. Robots are being used in various sectors like manufacturing, healthcare, and even household environments. Advances in robotics and AI are leading to autonomous systems that can perform complex tasks and interact with humans.
