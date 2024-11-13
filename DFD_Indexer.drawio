@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+  <diagram name="Page-1" id="BKZNAQyCBrKtvu_nm3KF">
+    <mxGraphModel dx="1257" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nXpOQ6-opSY90dS5oYdl-1" target="nXpOQ6-opSY90dS5oYdl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="nXpOQ6-opSY90dS5oYdl-1" target="nXpOQ6-opSY90dS5oYdl-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="100" />
+              <mxPoint x="120" y="640" />
+              <mxPoint x="220" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-1" value="Main Entry&amp;nbsp;&lt;br&gt;(def mian)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nXpOQ6-opSY90dS5oYdl-4" target="nXpOQ6-opSY90dS5oYdl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-4" value="Create Instance of class SearchEngine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nXpOQ6-opSY90dS5oYdl-6" target="nXpOQ6-opSY90dS5oYdl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nXpOQ6-opSY90dS5oYdl-6" target="nXpOQ6-opSY90dS5oYdl-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-6" value="Call the function&lt;br&gt;load_documents_and_index&lt;div&gt;to initialize the indexer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="nXpOQ6-opSY90dS5oYdl-9" target="nXpOQ6-opSY90dS5oYdl-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-9" value="index_document_helper&lt;br&gt;function&lt;br&gt;divide the tasks of the indexer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="190" width="155" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-11" value="_filter_words&lt;br&gt;function&lt;br&gt;removes stop words" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="195" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nXpOQ6-opSY90dS5oYdl-14" target="nXpOQ6-opSY90dS5oYdl-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-14" value="Call the function&lt;br&gt;Search&lt;br&gt;&lt;div&gt;to search for the words&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="420" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nXpOQ6-opSY90dS5oYdl-16" target="nXpOQ6-opSY90dS5oYdl-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-16" value="Call the function&lt;br&gt;display_results&lt;br&gt;&lt;div&gt;to get the results after a search&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="420" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nXpOQ6-opSY90dS5oYdl-19" target="nXpOQ6-opSY90dS5oYdl-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-19" value="Call the function&lt;br&gt;Search_Engine_UI&lt;br&gt;&lt;div&gt;to make a friendly user interface to interact and search&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="590" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.365;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nXpOQ6-opSY90dS5oYdl-19" target="nXpOQ6-opSY90dS5oYdl-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nXpOQ6-opSY90dS5oYdl-23" value="Terminate in case of exit command" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="700" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

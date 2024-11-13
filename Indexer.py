@@ -85,6 +85,7 @@ class SearchEngine:
             result_docs = self.search(query, search_by)
             self.display_results(result_docs, search_by)
 
+# User Interface in comand line
 def Search_Engine_UI(search_engine):
     print("Welcome to the Simple Document Search Engine!")
     while True:
