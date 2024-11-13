@@ -1,13 +1,15 @@
 import os
 import re
-import nltk
+# import nltk
 from nltk.corpus import stopwords
 from collections import defaultdict
 from typing import List, Dict
 
 # Download stopwords if not already downloaded
-nltk.download('stopwords')
-STOP_WORDS = set(stopwords.words('english'))
+# nltk.download('stopwords')
+
+STOP_WORDS = set(stopwords.words('english')) 
+# print(STOP_WORDS)
 
 class SearchEngine:
     def __init__(self, folder_path: str):
@@ -19,6 +21,7 @@ class SearchEngine:
 
     def load_documents_and_index(self) -> None:
         """Load all documents from the folder and index their titles and contents."""
+        print("Indexing of the documents has started!\n")
         for doc_id, filename in enumerate(os.listdir(self.folder_path)):
             file_path = os.path.join(self.folder_path, filename)
             if os.path.isfile(file_path):
@@ -56,7 +59,7 @@ class SearchEngine:
 
         result_docs = set(index[query_words[0]])
         for word in query_words[1:]:
-            result_docs &= set(index[word])
+            result_docs |= set(index[word])
 
         return list(result_docs)
 
@@ -82,13 +85,7 @@ class SearchEngine:
             result_docs = self.search(query, search_by)
             self.display_results(result_docs, search_by)
 
-
-def main():
-    """Main entry point for the search engine."""
-    folder_path = 'documents'
-    search_engine = SearchEngine(folder_path)
-    search_engine.load_documents_and_index()
-    
+def Search_Engine_UI(search_engine):
     print("Welcome to the Simple Document Search Engine!")
     while True:
         search_by = input("\nWould you like to search by 'title' or 'content'? (type 'exit' to quit): ").strip().lower()
@@ -102,6 +99,16 @@ def main():
         query = input("Enter search query: ").strip()
         result_docs = search_engine.search(query, search_by)
         search_engine.display_results(result_docs, search_by)
+
+
+def main():
+    """Main entry point for the search engine."""
+    folder_path = 'documents'
+    search_engine = SearchEngine(folder_path)
+    search_engine.load_documents_and_index()
+    
+    Search_Engine_UI(search_engine)
+    
 
 
 if __name__ == "__main__":
