@@ -8,7 +8,30 @@ from typing import List, Dict
 # Download stopwords if not already downloaded
 # nltk.download('stopwords')
 
-STOP_WORDS = set(stopwords.words('english')) 
+STOP_WORDS = set({'ours', 'just', 'hasn', 'they', "weren't", 'its', "won't", 'down', 
+                  'when', 'it', 'd', 'a', 'further', 'during', 'm', 'who', 'my',
+                    'them', "didn't", 'being', 'or', "she's", 'your', 'against', 
+                    'didn', 'were', 'can', 'than', 'into', 'under', 'isn', 
+                    'been', 'any', 'hadn', 'from', 'myself', 'not', 'then', 
+                    "don't", 'most', 'the', 'o', 've', 'very', 'because', 
+                    'are', 'their', "hasn't", 'both', 'doing', 'needn', 
+                    'itself', 'don', 'on', 'here', 'of', 'few', 's', 'hers', 
+                    'while', "haven't", 'whom', 'such', 'aren', 'herself', 
+                    "hadn't", 'yours', 'shouldn', 'ourselves', 'be', "you're", 
+                    'why', 'me', 'as', 'an', 'y', 'is', 'each', 'haven', 'mightn', 
+                    'wouldn', 'shan', 'ma', 'if', 'couldn', 're', 'her', "doesn't", 
+                    'through', 'and', 'doesn', 'this', 'own', 'again', 'no', 'had', 
+                    'ain', 'up', 'will', 'having', 'where', 'in', 'off', 'by', 't', 
+                    'was', "that'll", 'before', 'out', 'there', 'have', 'weren', 
+                    'over', 'so', 'did', "you'll", 'we', 'same', "it's", 'you', 
+                    'too', "should've", 'about', 'these', 'how', 'now', 'themselves', 
+                    "shan't", 'she', 'more', 'after', "couldn't", 'above', 'which', 
+                    'all', "shouldn't", "wouldn't", 'at', "needn't", 'but', 'that', 
+                    "you've", 'only', 'does', 'once', 'between', "mightn't", 'to', 
+                    'won', 'theirs', "isn't", 'with', 'other', 'his', 'until', 'mustn', 
+                    "you'd", 'do', 'for', 'yourself', "mustn't", 'himself', 'some', 'has', 
+                    'nor', 'yourselves', 'he', 'should', 'him', "wasn't", 'below', "aren't", 
+                    'those', 'am', 'wasn', 'our', 'what', 'll', 'i'}) 
 # print(STOP_WORDS)
 
 class SearchEngine:
